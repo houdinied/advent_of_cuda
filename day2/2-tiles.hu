@@ -1,0 +1,6 @@
+#ifndef TILED_BLOCKS_CU_H 
+#define TILED_BLOCKS_CU_H
+
+__global__ void tiled_blocks(int M, int N, int K, float alpha, const float *A, const float *B, float beta, float *C);
+
+#endif

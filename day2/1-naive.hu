@@ -1,0 +1,6 @@
+#ifndef NAIVE_CU_H
+#define NAIVE_CU_H
+
+__global__ void naive(int M, int N, int K, float alpha, const float *A, const float *B, float beta, float *C);
+
+#endif

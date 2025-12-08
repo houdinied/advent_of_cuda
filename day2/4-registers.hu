@@ -1,0 +1,6 @@
+#ifndef FLOAT4_CU_H 
+#define FLOAT4_CU_H 
+
+__global__ void registers(int M, int N, int K, float alpha, const float *A, const float *B, float beta, float *C);
+
+#endif

@@ -1,0 +1,6 @@
+#ifndef DOUBLE_BUFFER_CU_H
+#define DOUBLE_BUFFER_CU_H
+
+__global__ void double_buffer(int M, int N, int K, float alpha, const float *A, const float *B, float beta, float *C);
+
+#endif
