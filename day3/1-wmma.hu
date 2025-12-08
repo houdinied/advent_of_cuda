@@ -1,0 +1,9 @@
+#ifndef WMMA_CU_H
+#define WMMA_CU_H
+
+#include <cuda_fp16.h>
+
+__global__ void wmma_gemm(int M, int N, int K, float alpha, const __half *A, const __half *B, float beta, float *C);
+
+#endif
+
